@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SLADENKING</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="./data/img/portfolio/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body background="./data/img/sdk_dark.png" onclick="OutOfLogpass()">
+	<div class="header">
+		<a href="#main"><img id="logo" src="./data/img/logo.png"></a>
+		<nav id="perehod">
+			<a href="#main">Main</a>
+			<a href="#profile">Profile</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#order">Order</a>
+		</nav>
+		<!-- <img id="profile_icon" src="./data/img/profile.png" onclick="logpass()" onmouseleave="checkOutOfLogpass = true;"> -->
+	</div>
+	<a href="#main"><img id="strelka" src="./data/img/strelka.png"></a>
+	<div onmouseenter="checkOutOfLogpass = false;" onmouseleave="checkOutOfLogpass = true;" id="logpass">
+		<form>
+			<input id="login" type="login" name="" placeholder="Login">
+			<input id="password" type="password" name="" placeholder="Password">
+			<input type="submit" id="button_logpass" value="Sign In" title="dd">
+		</form>
+	</div>
+	<div class="content">
+			<section id="main"></section>
+			<div class="main">
+				<p>Viacheslav Denysko</p>
+				<p>Student, Graphic Designer, Web UI Designer</p>
+				<p>Check my
+					<a href="#profile">Profile</a>
+					and
+					<a href="#portfolio">Portfolio</a>.
+					Also you can <a href="#order">Make an Order</a>.</p>
+			</div>
+		<div class="profile">
+			<section class="yacor" id="profile"></section>
+			<div class="card">
+				<div class="front"><img src="./data/img/profile.jpg"></div>
+				<div class="back">
+					<div class="details">
+						<h2>Viacheslav Denysko<br><span>Web UI Designer</span></h2>
+						<div class="social-icons">
+							<a href="https://instagram.com/sladenking"><i class="fa fa-instagram"
+									aria-hidden="true"></i></a>
+							<a href="https://t.me/sladenking"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+							<a href="mailto:deniskosv@gmail.com"><i class="fa fa-envelope-o"
+									aria-hidden="true"></i></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio">
+			<section id="portfolio"></section>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="imgBx">
+							<img src="./data/img/portfolio/sladenking.png">
+						</div>
+						<div class="details_portfolio">
+							<h3>SLADENKING<br><span>by sladenking</span></h3>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="imgBx">
+							<img src="./data/img/portfolio/wheelkeep.png">
+						</div>
+						<div class="details_portfolio">
+							<h3>WheelKeep<br><span>by sladenking</span></h3>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="imgBx">
+							<img src="./data/img/portfolio/fpecs.png">
+						</div>
+						<div class="details_portfolio">
+							<h3>FPECS<br><span>by sladenking</span></h3>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="imgBx">
+							<img src="./data/img/portfolio/bd.png">
+						</div>
+						<div class="details_portfolio">
+							<h3>Business Dictionary<br><span>by sladenking</span></h3>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="imgBx">
+							<img src="./data/img/portfolio/fmtdr.png">
+						</div>
+						<div class="details_portfolio">
+							<h3>FMTDR<br><span>by sladenking</span></h3>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="order">
+			<section id="order"></section>
+			<div class="order-div">
+				<p>Contact me</p>
+				<a href="https://instagram.com/sladenking"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://t.me/sladenking"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+				<a href="mailto:deniskosv@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+		<p>©SLADENKING</p>
+	</footer>
+	<script type="text/javascript" src="./static/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="./static/js/render.js"></script>
+</body>
+
+</html>
